@@ -80,7 +80,7 @@ fn impl_enum_each(ast: DeriveInput) -> quote::Tokens {
 
     quote! {
         impl #name {
-            fn all_variants() -> Vec<Self> {
+            pub fn all_variants() -> Vec<Self> {
                 let mut acc: Vec<Self> = vec![];
                 #(#push_variants);*
                 acc
