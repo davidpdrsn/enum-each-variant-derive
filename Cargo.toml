@@ -2,6 +2,11 @@
 name = "enum-each-variant-derive"
 version = "0.1.0"
 authors = ["David Pedersen <david.pdrsn@gmail.com>"]
+repository = "https://github.com/davidpdrsn/enum-each-variant-derive.git"
+homepage = "https://github.com/davidpdrsn/enum-each-variant-derive"
+license = "MIT"
+readme = "README.md"
+description = "Background jobs for Rust"
 
 [dependencies]
 syn = "0.12.15"
