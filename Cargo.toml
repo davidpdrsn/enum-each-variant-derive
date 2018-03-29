@@ -9,7 +9,7 @@ readme = "README.md"
 description = "Background jobs for Rust"
 
 [dependencies]
-syn = "0.12.15"
+syn = "0.12.14"
 quote = "0.4.2"
 
 [lib]
