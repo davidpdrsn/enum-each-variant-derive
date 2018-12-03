@@ -75,8 +75,7 @@ fn impl_enum_each(ast: DeriveInput) -> quote::Tokens {
     let push_variants = variant_names
         .map(|variant_name| {
             quote! { acc.push(#name::#variant_name); }
-        })
-        .collect::<Vec<_>>();
+        });
 
     quote! {
         impl #name {
